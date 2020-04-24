@@ -2,6 +2,21 @@
 
 Jogo multiplayer de ping pong utilizando C++, OpenGL e SFML.
 
+### Dependências
+
+Para que o jogo compile corretamente é necessário instalar as seguintes dependências.
+```
+sudo apt install libsfml-dev
+```
+
+### Compilação
+
+Para recompilar execute o shellscript nos diretórios dos executáveis.
+```
+./comp.sh
+```
+Talvez seja necessário instalar as bibliotecas e libs do SFML.
+
 ### Inicialização
 
 Para rodar o jogo é necessário primeiro executar o servidor do jogo no teminal fornecendo a porta na qual o servidor vai atuar.
@@ -31,11 +46,3 @@ No Windows
 ```
 ipconfig
 ```
-
-### Compilação
-
-Para recompilar execute o shellscript nos diretórios dos executáveis.
-```
-./comp.sh
-```
-Talvez seja necessário instalar as bibliotecas e libs do SFML.
